@@ -1,0 +1,28 @@
+@import url("./estilos/sobre.css");
+@import url("./estilos/cabecalho.css");
+@import url("./estilos/apresentacao.css");
+@import url("./estilos/header.css");
+@import url("./reset.css");
+
+:root {
+    --cor-de-fundo: gray;
+    --branco: white;
+    --fonte-principal: ;
+    --cor-do-titulo: blue;
+    --cor-do-texto: white;
+    --fonte-titulo: "Merriweather", serif;
+}
+
+body {
+    background-image: url("./assets/FB_IMG_1724615992009.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 9%;
+    height: 100vh;
+    box-sizing: border-box;
+    color: var(--cor-do-texto);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: purple;
+}
