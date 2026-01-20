@@ -1,110 +1,108 @@
 body {
-    background-image: url("../assets/FB_IMG_1724630324689.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0%;
-    padding: 0%;
-    height: 100vh;
-    box-sizing: border-box;
-    color: var(--cor-do-texto);
-    font-size: 16px;
-    font-weight: 400;
-    background-color: black;
+  background-image: url("../assets/WhatsApp\ Image\ 2026-01-20\ at\ 12.47.50\ AM.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  box-sizing: border-box;
+  color: var(--cor-do-texto);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: black;
 }
 
 .cabecalho-sobre {
-    display: flex;
-    text-align: center;
-    padding: 10% 0% 0% 7%;
+  display: flex;
+  text-align: center;
+  padding: 5% 0% 0% 7%;
 }
 .apresentacao__conteudo-s {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .conteudo__titulo-s {
-    font-weight: 700;
-    font-size: 1.4rem;
-    color: white;
-    font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Merriweather", serif;
 }
 
 .destaque {
-    color: purple;
+  color: purple;
 }
 
 .texto-sobre {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: white;
-    border: 2px solid black;
-    padding: 1rem;
-    border-radius: 15px;
-    margin: 0rem 3rem 0rem 3rem;;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 0rem 3rem 0rem 3rem;
 }
 
 .botoes__link {
-    text-decoration: none;
-    border: 3px solid purple;
-    margin-bottom: 0.8rem;
-    border-radius: 15px;
-    width: 80%;
-    color: white;
-    padding: 0.5rem;
-    font-size: 14px;
-    font-weight: 500;
+  text-decoration: none;
+  border: 3px solid purple;
+  margin-bottom: 0.8rem;
+  border-radius: 15px;
+  width: 80%;
+  color: white;
+  padding: 0.5rem;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .botoes__link:hover {
-     padding: 0.7rem;
-     background: purple;
-     font-size: 0.9rem;
-     font-weight: 700;
+  padding: 0.7rem;
+  background: purple;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 #play-button {
-    font-size: 0.8rem;
-    padding: 5px 15px;
-    background-color: transparent;
-    color: purple;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-left: 50%;
+  font-size: 0.8rem;
+  padding: 5px 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 50%;
 }
 
 @media screen and (min-width: 360px) {
-    .conteudo__titulo-s {
-        font-size: 1.4rem;
-    }
+  .conteudo__titulo-s {
+    font-size: 1.4rem;
+  }
 
-    .texto-sobre {
-        font-size: 1.2rem;
-    }
-} 
+  .texto-sobre {
+    font-size: 1.2rem;
+  }
+}
 
 @media screen and (min-width: 375px) {
-    .conteudo__titulo-s {
-        font-size: 1.5rem;
-    }
+  .conteudo__titulo-s {
+    font-size: 1.5rem;
+  }
 
-    .texto-sobre {
-        font-size: 1.3rem;
-    }
-} 
+  .texto-sobre {
+    font-size: 1.3rem;
+  }
+}
 
 @media screen and (min-width: 402px) {
-    .conteudo__titulo-s {
-        font-size: 1.6rem;
-    }
+  .conteudo__titulo-s {
+    font-size: 1.6rem;
+  }
 
-    .texto-sobre {
-        font-size: 1.4rem;
-    }
-} 
-
-
+  .texto-sobre {
+    font-size: 1.4rem;
+  }
+}
